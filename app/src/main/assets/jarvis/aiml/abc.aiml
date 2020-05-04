@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: bot_profile.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: February 20, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+
+
+<category>
+<pattern>HELLO *</pattern>
+<template>Hi! User.
+Welcome to Elective Support BPHC</template>
+</category>
+
+<category>
+<pattern>HI</pattern>
+<template>Hi! User
+Welcome to Elective Support BPHC</template>
+</category>
+
+<category>
+<pattern>HI *</pattern>
+<template>Hi! User.
+Welcome to Elective Support BPHC</template>
+</category>
+
+<category>
+<pattern>THANKS</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>* THANKS</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>THANKS *</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>* THANKS* </pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>THANK YOU</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>* THANK YOU</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>THANK YOU *</pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>* THANK YOU* </pattern>
+<template>Thank You
+Hope to see you soon</template>
+</category>
+
+<category>
+<pattern>HELLO</pattern>
+<template>Hi! User
+Welcome to Elective Support BPHC</template>
+</category>
+
+<category>
+<pattern>* ELECTIVE *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVE *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTIVE</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVE</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>* ELECTIVES *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVES *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>ELECTIVES *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>* ELECTIVES *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVES *</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ELECTIVES</pattern>
+<template>
+<random>
+<li> Ya Sure! Can you tell me which branch you are intereseted in? </li>
+<li> Obvio!! Tell me any specific branch you are interested for? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER SCIENCE</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Network Programming
+2.Computer Graphics
+3.Cryptography
+4.Machine Learning
+5.Artificial Intelligence
+6.Data Mining
+7.Computational Geometry
+8.Software Engineering
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTER SCIENCE</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Network Programming
+2.Computer Graphics
+3.Cryptography
+4.Machine Learning
+5.Artificial Intelligence
+6.Data Mining
+7.Computational Geometry
+8.Software Engineering
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER SCIENCE *</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Network Programming
+2.Computer Graphics
+3.Cryptography
+4.Machine Learning
+5.Artificial Intelligence
+6.Data Mining
+7.Computational Geometry
+8.Software Engineering
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTER SCIENCE *</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Network Programming
+2.Computer Graphics
+3.Cryptography
+4.Machine Learning
+5.Artificial Intelligence
+6.Data Mining
+7.Computational Geometry
+8.Software Engineering
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>* DATA SCIENCE *</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Machine Learning
+2.Artificial Intelligence
+3.Data Mining
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>DATA SCIENCE *</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Machine Learning
+2.Artificial Intelligence
+3.Data Mining
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>* DATA SCIENCE</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Machine Learning
+2.Artificial Intelligence
+3.Data Mining
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>DATA SCIENCE</pattern>
+<template>Well!! You can choose a lot of topics under this domain.Some are:-
+1.Machine Learning
+2.Artificial Intelligence
+3.Data Mining
+Which one do you want to chose?
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER GRAPHICS</pattern>
+<template>
+This is a good course. It's taken by Prof Tathagat Ray this sem.
+The course mainly covers Graphics I/O hardware, Generation of dot, lines, conics, curves,
+surfaces &amp; polygons; Filling closed regions, 2D &amp; 3D Graphics &amp; Transformations, Windowing,
+Viewing &amp; Clipping, Efficient algorithms, Solid Modeling, Color Models &amp; Dithering, Visible
+surface detection, Rendering, Animation Techniques, Advanced modeling and Future directions.
+He is great!!!
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER GRAPHICS *</pattern>
+<template>
+<srai>COMPUTER GRAPHICS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTER GRAPHICS *</pattern>
+<template>
+<srai>COMPUTER GRAPHICS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTER GRAPHICS</pattern>
+<template>
+<srai>COMPUTER GRAPHICS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>SOFTWARE ENGINEERING</pattern>
+<template>
+This is a good course. It's taken by Prof Narasimha Bolloju this sem.
+This course provides the knowledge and skills necessary to effectively participate and contribute to project
+teams in software development following a suitable methodology.
+The project involves a full stack web development project
+</template>
+</category>
+
+<category>
+<pattern>* SOFTWARE ENGINEERING</pattern>
+<template>
+This is a good course. It's taken by Prof Narasimha Bolloju this sem.
+This course provides the knowledge and skills necessary to effectively participate and contribute to project
+teams in software development following a suitable methodology.
+The project involves a full stack web development project
+</template>
+</category>
+
+<category>
+<pattern>SOFTWARE ENGINEERING *</pattern>
+<template>
+This is a good course. It's taken by Prof Narasimha Bolloju this sem.
+This course provides the knowledge and skills necessary to effectively participate and contribute to project
+teams in software development following a suitable methodology.
+The project involves a full stack web development project
+</template>
+</category>
+
+<category>
+<pattern>* SOFTWARE ENGINEERING *</pattern>
+<template>
+This is a good course. It's taken by Prof Narasimha Bolloju this sem.
+This course provides the knowledge and skills necessary to effectively participate and contribute to project
+teams in software development following a suitable methodology.
+The project involves a full stack web development project
+</template>
+</category>
+
+<category>
+<pattern>COMPUTATIONAL GEOMETRY</pattern>
+<template>
+This is a good course. It's taken by Prof Manjanna B this sem.
+The objective of this course is to introduce each individual student to computational
+geometry – a branch of theory of algorithms that aims at solving problems involving
+geometric objects, and its application areas.
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTATIONAL GEOMETRY</pattern>
+<template>
+This is a good course. It's taken by Prof Manjanna B this sem.
+The objective of this course is to introduce each individual student to computational
+geometry – a branch of theory of algorithms that aims at solving problems involving
+geometric objects, and its application areas.
+</template>
+</category>
+
+<category>
+<pattern>COMPUTATIONAL GEOMETRY *</pattern>
+<template>
+This is a good course. It's taken by Prof Manjanna B this sem.
+The objective of this course is to introduce each individual student to computational
+geometry – a branch of theory of algorithms that aims at solving problems involving
+geometric objects, and its application areas.
+</template>
+</category>
+
+<category>
+<pattern>* COMPUTATIONAL GEOMETRY *</pattern>
+<template>
+This is a good course. It's taken by Prof Manjanna B this sem.
+The objective of this course is to introduce each individual student to computational
+geometry – a branch of theory of algorithms that aims at solving problems involving
+geometric objects, and its application areas.
+</template>
+</category>
+
+<category>
+<pattern>DATA MINING</pattern>
+<template>
+This is a good course. It's taken by Prof Manik Gupta this sem.
+The course explores the concepts and techniques of data mining, a promising and flourishing frontier in data
+science. Analyzing large amounts of data has become a necessity and the problem therefore arises as to “how to
+analyze the data”. Data Mining is the subject dealing automated extraction of useful information or patterns
+representing knowledge implicitly stored in large databases, data warehouses, and other massive data
+repositories.
+</template>
+</category>
+
+<category>
+<pattern>* DATA MINING</pattern>
+<template>
+This is a good course. It's taken by Prof Manik Gupta this sem.
+The course explores the concepts and techniques of data mining, a promising and flourishing frontier in data
+science. Analyzing large amounts of data has become a necessity and the problem therefore arises as to “how to
+analyze the data”. Data Mining is the subject dealing automated extraction of useful information or patterns
+representing knowledge implicitly stored in large databases, data warehouses, and other massive data
+repositories.
+</template>
+</category>
+
+<category>
+<pattern>DATA MINING *</pattern>
+<template>
+This is a good course. It's taken by Prof Manik Gupta this sem.
+The course explores the concepts and techniques of data mining, a promising and flourishing frontier in data
+science. Analyzing large amounts of data has become a necessity and the problem therefore arises as to “how to
+analyze the data”. Data Mining is the subject dealing automated extraction of useful information or patterns
+representing knowledge implicitly stored in large databases, data warehouses, and other massive data
+repositories.
+</template>
+</category>
+
+<category>
+<pattern>* DATA MINING *</pattern>
+<template>
+This is a good course. It's taken by Prof Manik Gupta this sem.
+The course explores the concepts and techniques of data mining, a promising and flourishing frontier in data
+science. Analyzing large amounts of data has become a necessity and the problem therefore arises as to “how to
+analyze the data”. Data Mining is the subject dealing automated extraction of useful information or patterns
+representing knowledge implicitly stored in large databases, data warehouses, and other massive data
+repositories.
+</template>
+</category>
+
+<category>
+<pattern>ARTIFICIAL INTELLIGENCE</pattern>
+<template>
+This is a good course. It's taken by Prof Chittaranjan Hota this sem.
+This course introduces students to basic concepts and methods of artificial intelligence from a computer science
+perspective. AI concerns itself with a certain set of problems and develops a particular body of techniques for
+approaching these problems. The focus of the course will be on the study of methods of knowledge representation,
+reasoning, and algorithms required for the developing intelligent programs. AI not only strives to build intelligent
+entities, but also allows understanding them.
+</template>
+</category>
+
+<category>
+<pattern>* ARTIFICIAL INTELLIGENCE</pattern>
+<template>
+This is a good course. It's taken by Prof Chittaranjan Hota this sem.
+This course introduces students to basic concepts and methods of artificial intelligence from a computer science
+perspective. AI concerns itself with a certain set of problems and develops a particular body of techniques for
+approaching these problems. The focus of the course will be on the study of methods of knowledge representation,
+reasoning, and algorithms required for the developing intelligent programs. AI not only strives to build intelligent
+entities, but also allows understanding them.
+</template>
+</category>
+
+<category>
+<pattern>ARTIFICIAL INTELLIGENCE *</pattern>
+<template>
+This is a good course. It's taken by Prof Chittaranjan Hota this sem.
+This course introduces students to basic concepts and methods of artificial intelligence from a computer science
+perspective. AI concerns itself with a certain set of problems and develops a particular body of techniques for
+approaching these problems. The focus of the course will be on the study of methods of knowledge representation,
+reasoning, and algorithms required for the developing intelligent programs. AI not only strives to build intelligent
+entities, but also allows understanding them.
+</template>
+</category>
+
+<category>
+<pattern>* ARTIFICIAL INTELLIGENCE *</pattern>
+<template>
+This is a good course. It's taken by Prof Chittaranjan Hota this sem.
+This course introduces students to basic concepts and methods of artificial intelligence from a computer science
+perspective. AI concerns itself with a certain set of problems and develops a particular body of techniques for
+approaching these problems. The focus of the course will be on the study of methods of knowledge representation,
+reasoning, and algorithms required for the developing intelligent programs. AI not only strives to build intelligent
+entities, but also allows understanding them.
+</template>
+</category>
+
+<category>
+<pattern>MACHINE LEARNING</pattern>
+<template>
+This is a good course. It's taken by Prof N.L. Bhanumurthy this sem.
+The objectives of the course are to
+1.Learn theoretical and practical aspects of supervised learning algorithms
+2.Understand Bayesian perspective of some of the supervised learning algorithms
+3.Learn linear regression and understand Bayesian perspective of linear regression
+</template>
+</category>
+
+<category>
+<pattern>* MACHINE LEARNING *</pattern>
+<template>
+This is a good course. It's taken by Prof N.L. Bhanumurthy this sem.
+The objectives of the course are to
+1.Learn theoretical and practical aspects of supervised learning algorithms
+2.Understand Bayesian perspective of some of the supervised learning algorithms
+3.Learn linear regression and understand Bayesian perspective of linear regression
+</template>
+</category>
+
+<category>
+<pattern>MACHINE LEARNING *</pattern>
+<template>
+This is a good course. It's taken by Prof N.L. Bhanumurthy this sem.
+The objectives of the course are to
+1.Learn theoretical and practical aspects of supervised learning algorithms
+2.Understand Bayesian perspective of some of the supervised learning algorithms
+3.Learn linear regression and understand Bayesian perspective of linear regression
+</template>
+</category>
+
+<category>
+<pattern>* MACHINE LEARNING</pattern>
+<template>
+This is a good course. It's taken by Prof N.L. Bhanumurthy this sem.
+The objectives of the course are to
+1.Learn theoretical and practical aspects of supervised learning algorithms
+2.Understand Bayesian perspective of some of the supervised learning algorithms
+3.Learn linear regression and understand Bayesian perspective of linear regression
+</template>
+</category>
+
+<category>
+<pattern>CRYPTOGRAPHY</pattern>
+<template>
+This is a good course. It's taken by Prof G. Geethakumari this sem.
+The course mainly covers insight into private key cryptographic schemes and their implementation as well as Public key
+cryptographic mechanisms and their applciations.
+Hands-on exposure to cryptographic algorithms to various real-life security applications in the cyber space
+</template>
+</category>
+
+<category>
+<pattern>* CRYPTOGRAPHY *</pattern>
+<template>
+This is a good course. It's taken by Prof G. Geethakumari this sem.
+The course mainly covers insight into private key cryptographic schemes and their implementation as well as Public key
+cryptographic mechanisms and their applciations.
+Hands-on exposure to cryptographic algorithms to various real-life security applications in the cyber space
+</template>
+</category>
+
+<category>
+<pattern>CRYPTOGRAPHY *</pattern>
+<template>
+This is a good course. It's taken by Prof G. Geethakumari this sem.
+The course mainly covers insight into private key cryptographic schemes and their implementation as well as Public key
+cryptographic mechanisms and their applciations.
+Hands-on exposure to cryptographic algorithms to various real-life security applications in the cyber space
+</template>
+</category>
+
+<category>
+<pattern>* CRYPTOGRAPHY</pattern>
+<template>
+This is a good course. It's taken by Prof G. Geethakumari this sem.
+The course mainly covers insight into private key cryptographic schemes and their implementation as well as Public key
+cryptographic mechanisms and their applciations.
+Hands-on exposure to cryptographic algorithms to various real-life security applications in the cyber space
+</template>
+</category>
+
+<category>
+<pattern>NETWORK PROGRAMMING</pattern>
+<template>
+This is a good course. It's taken by Prof Paresh Saxena this sem.
+This course is designed for the students to learn both basic and advanced network programming concepts. The
+course aims to teach the students most popular internet protocols that are being used while different machines
+are communicating. The course will introduce students to the development of several network protocols
+including UDP, TCP, HTTP, SMTP, Telnet, SSH, FTP, etc.
+</template>
+</category>
+
+<category>
+<pattern>* NETWORK PROGRAMMING *</pattern>
+<template>
+This is a good course. It's taken by Prof Paresh Saxena this sem.
+This course is designed for the students to learn both basic and advanced network programming concepts. The
+course aims to teach the students most popular internet protocols that are being used while different machines
+are communicating. The course will introduce students to the development of several network protocols
+including UDP, TCP, HTTP, SMTP, Telnet, SSH, FTP, etc.
+</template>
+</category>
+
+<category>
+<pattern>NETWORK PROGRAMMING *</pattern>
+<template>
+This is a good course. It's taken by Prof Paresh Saxena this sem.
+This course is designed for the students to learn both basic and advanced network programming concepts. The
+course aims to teach the students most popular internet protocols that are being used while different machines
+are communicating. The course will introduce students to the development of several network protocols
+including UDP, TCP, HTTP, SMTP, Telnet, SSH, FTP, etc.
+</template>
+</category>
+
+<category>
+<pattern>* NETWORK PROGRAMMING</pattern>
+<template>
+This is a good course. It's taken by Prof Paresh Saxena this sem.
+This course is designed for the students to learn both basic and advanced network programming concepts. The
+course aims to teach the students most popular internet protocols that are being used while different machines
+are communicating. The course will introduce students to the development of several network protocols
+including UDP, TCP, HTTP, SMTP, Telnet, SSH, FTP, etc.
+</template>
+</category>
+
+
+<category>
+<pattern>NO INTEREST</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>NO INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO INTEREST</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>NO PARTICULAR INTEREST</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO PARTICULAR INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>NO PARTICULAR INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO PARTICULAR INTEREST</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>NO * PARTICULAR INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO * PARTICULAR INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO * PARTICULAR * INTEREST *</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>* NO * PARTICULAR * INTEREST</pattern>
+<template>Are you sure that you aren't ineterseted in any domain? 
+May be you can choose a particular Prof.
+Name the Prof whose elective you want to select
+If you even don't have a favourite professor, you can enter
+NO PROFESSOR EITHER
+</template>
+</category>
+
+<category>
+<pattern>NO PROFESSOR</pattern>
+<template>
+Oh then you can go through the trending jobs on any domain to get idea about it.
+For doing so please enter the "TRENDING JOBS FOR [DOMAIN_NAME]" for which you want to search for.
+</template>
+</category>
+
+
+<category>
+<pattern>NO * PROFESSOR</pattern>
+<template>
+Oh then you can go through the trending jobs on any domain to get idea about it.
+For doing so please enter the "TRENDING JOBS FOR [DOMAIN_NAME]" for which you want to search for.
+</template>
+</category>
+
+
+<category>
+<pattern>* NO PROFESSOR</pattern>
+<template>
+Oh then you can go through the trending jobs on any domain to get idea about it.
+For doing so please enter the "TRENDING JOBS FOR [DOMAIN_NAME]" for which you want to search for.
+</template>
+</category>
+
+
+<category>
+<pattern>NO PROFESSOR *</pattern>
+<template>
+Oh then you can go through the trending jobs on any domain to get idea about it.
+For doing so please enter the "TRENDING JOBS FOR [DOMAIN_NAME]" for which you want to search for.
+</template>
+</category>
+
+
+<category>
+<pattern>* NO * PROFESSOR *</pattern>
+<template>
+Oh then you can go through the trending jobs on any domain to get idea about it.
+For doing so please enter the "TRENDING JOBS FOR [DOMAIN_NAME]" for which you want to search for.
+</template>
+</category>
+
+<category>
+<pattern>HOTA *</pattern>
+<template>You can Choose AI.
+<srai>ARTIFICIAL INTELLIGENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOTA *</pattern>
+<template>You can Choose AI.
+<srai>ARTIFICIAL INTELLIGENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>RAY *</pattern>
+<template>You can Choose Computer Graphics.
+<srai>COMPUTER GRAPHICS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RAY *</pattern>
+<template>You can Choose Computer Graphics.
+<srai>COMPUTER GRAPHICS</srai>
+</template>
+</category>
+
+<category>
+<pattern>GEETHAKUMARI *</pattern>
+<template>You can Choose Cryptography.
+<srai>CRYPTOGRAPHY</srai>
+</template>
+</category>
+
+<category>
+<pattern>* GEETHAKUMARI *</pattern>
+<template>You can Choose Cryptography.
+<srai>CRYPTOGRAPHY</srai>
+</template>
+</category>
+
+<category>
+<pattern>SAXENA *</pattern>
+<template>You can choose Network Programming.
+<srai>NETWORK PROGRAMMING</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SAXENA *</pattern>
+<template>You can choose Network Programming.
+<srai>NETWORK PROGRAMMING</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOLLOJU *</pattern>
+<template>You can choose Software Engineering.
+<srai>SOFTWARE ENGINEERING</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOLLOJU *</pattern>
+<template>You can choose Software Engineering.
+<srai>SOFTWARE ENGINEERING</srai>
+</template>
+</category>
+
+<category>
+<pattern>MANIK *</pattern>
+<template>You can choose Data Mining.
+<srai>DATA MINING</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MANIK *</pattern>
+<template>You can choose Data Mining.
+<srai>DATA MINING</srai>
+</template>
+</category>
+
+<category>
+<pattern>MANJANNA *</pattern>
+<template>You can choose Computational Geometry.
+<srai>COMPUTATIONAL GEOMETRY</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MANJANNA *</pattern>
+<template>You can choose Computational Geometry.
+<srai>COMPUTATIONAL GEOMETRY</srai>
+</template>
+</category>
+
+<category>
+<pattern>BHANUMURTHY *</pattern>
+<template>You can choose Machine Learning.
+<srai>MACHINE LEARNING</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BHANUMURTHY *</pattern>
+<template>You can choose Machine Learning.
+<srai>MACHINE LEARNING</srai>
+</template>
+</category>
+
+</aiml>

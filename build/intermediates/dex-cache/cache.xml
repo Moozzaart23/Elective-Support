@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_f5591083d26f9c9a39595554ed0a1dcb84002e4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_36cc18b9a8947962148fac2a43d15398bb976644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_7c7ff1ca0375cbf89e3ac482bb3daa703d2ec22a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_1a4b2c550d1825c4bb1c76ec8a6cda64c0966099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_625a54d7d16f1f52bdf551c1a2de3f446e1f5e36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anish Dey\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_d0e1f9aa8b541431f0a1c0463daa07345d9e61f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\libs\Ab.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9b665ae23266e9ef409ad57c8b183fff4c6bc0fd">
+        <dex dex="H:\BPHC\AI\Assignments\Assignment-1\Elective_Support\app\build\intermediates\pre-dexed\debug\Ab_4f0dd1b454b2e216bd6f34e88458da1492266698.jar" />
+    </item>
+
+</items>
