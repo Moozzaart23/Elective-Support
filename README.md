@@ -8,7 +8,7 @@ The bot could also **interact with web services** to know the trending jobs in t
 
 ## Installation
 - Clone this repository in your preferred directory
- > git clone `https://github.com/Moozzaart23/Elective-Support.git`
+ > `git clone https://github.com/Moozzaart23/Elective-Support.git`
 - Run the Android Studio project. 
 
 - Try to use an emulator to run the app. The app works on API 29 and above.
